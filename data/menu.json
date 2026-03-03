@@ -1,0 +1,202 @@
+{
+  "restaurant": {
+    "name": "Shokudo",
+    "tagline": "Ramen & Sushi",
+    "address": "1855 Route 57, Hackettstown, NJ 07840",
+    "phone": ["908-269-8390", "908-269-8367"],
+    "hours": {
+      "monSat": "11:30 AM - 10:00 PM",
+      "sun": "12:00 PM - 10:00 PM"
+    },
+    "orderUrl": "https://order.mealkeyway.com/customer/release/index?mid=6f35786d755767486d2f543268774c544251572b63413d3d#/main",
+    "reservationUrl": "https://www.yelp.com/reservations/shokudo-hackettstown?from_reserve_now=1",
+    "facebook": "https://www.facebook.com/profile.php?id=61554784352183",
+    "yelp": "https://www.yelp.com/biz/shokudo-hackettstown"
+  },
+  "categories": [
+    {
+      "name": "Kitchen Appetizers",
+      "items": [
+        { "name": "Steam Bun (2)", "price": 8.00, "popular": true },
+        { "name": "Gyoza (6)", "price": 6.00, "popular": true },
+        { "name": "Edamame", "price": 5.00, "popular": true },
+        { "name": "Shumai (6)", "price": 6.00, "popular": true },
+        { "name": "Kim Chi", "price": 6.00 },
+        { "name": "Takoyaki", "price": 8.00 },
+        { "name": "Spicy Edamame", "price": 6.00 },
+        { "name": "Fried Spring Roll", "price": 2.00, "popular": true },
+        { "name": "Shrimp Tempura App", "price": 6.95 },
+        { "name": "Tempura Vegetable App", "price": 6.95, "description": "Broccoli, asparagus, sweet potatoes with tempura sauce" },
+        { "name": "Golden Bun (4)", "price": 6.00 },
+        { "name": "Tempura Crab Meat App", "price": 8.00 }
+      ]
+    },
+    {
+      "name": "Sushi Appetizers",
+      "items": [
+        { "name": "Beef Tataki App", "price": 13.95, "description": "6pcs seared beef, with white truffle oil, grated black summer truffles, eel sauce" },
+        { "name": "Salmon Sweetie (4)", "price": 12.95, "description": "Salmon wrapped around mango and cucumber topped with fresh mango sauce and masago" },
+        { "name": "Fire Bomb (4)", "price": 12.00, "description": "Deep fried jalapeno stuffed with cheese and spicy Kani" },
+        { "name": "Yellowtail Jalapeno App", "price": 13.95, "description": "6pcs yellowtail, jalapeno, served with ponzu sauce, sriracha" },
+        { "name": "Sushi App", "price": 12.95, "description": "Five pieces nigiri" },
+        { "name": "Sashimi App", "price": 13.95, "description": "Seven pieces sashimi" },
+        { "name": "Perilla with Scallop (4)", "price": 12.95, "description": "Tempura perilla, top with sear scallop, masago, eel sauce" },
+        { "name": "Perilla with Beef (4)", "price": 12.95, "description": "Tempura perilla, top with seared beef, steak seasoning, eel sauce" },
+        { "name": "Perilla with Shrimp (4)", "price": 12.95, "description": "Tempura perilla, top with fried shrimp, eel sauce mayo" },
+        { "name": "Perilla with Salmon (4)", "price": 12.95, "description": "Tempura perilla, top with sear salmon, salmon roe" }
+      ]
+    },
+    {
+      "name": "Soup & Salad",
+      "items": [
+        { "name": "Kani Salad", "price": 7.00, "popular": true },
+        { "name": "Seaweed Salad", "price": 8.00 },
+        { "name": "Avocado Salad", "price": 7.00 },
+        { "name": "Miso Soup", "price": 3.00, "popular": true }
+      ]
+    },
+    {
+      "name": "Sushi Roll",
+      "items": [
+        { "name": "Tuna Roll", "price": 6.50 },
+        { "name": "Salmon Roll", "price": 6.50 },
+        { "name": "Yellowtail Roll", "price": 7.00 },
+        { "name": "Tuna Avocado Roll", "price": 7.50 },
+        { "name": "Tuna Cucumber Roll", "price": 7.50 },
+        { "name": "Salmon Avocado Roll", "price": 7.00, "popular": true },
+        { "name": "Salmon Cucumber Roll", "price": 7.00 },
+        { "name": "Eel Avocado Roll", "price": 7.50 },
+        { "name": "Eel Cucumber Roll", "price": 7.50 },
+        { "name": "Philly Roll", "price": 8.00 },
+        { "name": "California Roll", "price": 6.00, "description": "Crabstick/cucumber/avocado", "popular": true },
+        { "name": "Alaska Roll", "price": 8.00, "description": "Salmon/avocado/cucumber/masago" },
+        { "name": "Spicy Roll", "price": 7.00, "popular": true },
+        { "name": "Tempura Shrimp Roll", "price": 6.95, "description": "Shrimp tempura cucumber/avocado/masago/sweet sauce", "popular": true },
+        { "name": "Tempura Crab Meat Roll", "price": 6.95 },
+        { "name": "Tempura Chicken Roll", "price": 6.95 },
+        { "name": "Cucumber Roll", "price": 5.00 },
+        { "name": "Avocado Roll", "price": 5.00 },
+        { "name": "Cucumber Avocado Roll", "price": 5.50 },
+        { "name": "Mango Avocado Roll", "price": 6.00 },
+        { "name": "A.A.C. Roll", "price": 6.50, "description": "Asparagus/avocado/cucumber" },
+        { "name": "Sweet Potato Roll", "price": 6.00, "popular": true },
+        { "name": "Peanut Avocado Roll", "price": 6.00 },
+        { "name": "Eel Dragon Roll", "price": 13.95, "description": "Eel, cucumber inside. Top with avocado, serve with eel sauce, masago" },
+        { "name": "Rainbow Roll", "price": 13.95, "description": "Crab meat stick, cucumber, avocado inside, top with tuna salmon, yellowtail, avocado" }
+      ]
+    },
+    {
+      "name": "Chef's Special Roll",
+      "items": [
+        { "name": "Shokudo Roll", "price": 15.95, "popular": true, "description": "Shrimp tempura, avocado inside, top with seared filet mignon, served with eel sauce, white truffle oil, grated black summer truffles" },
+        { "name": "Hackettstown Roll", "price": 15.95, "description": "Shrimp tempura inside, top spicy tuna, salmon, avocado, served with eel sauce, miso sauce" },
+        { "name": "Yummy Roll", "price": 15.95, "description": "Shrimp tempura, cheese inside, top with kani stick, serve with eel sauce, sweet chili sauce" },
+        { "name": "Salmon Lover Roll", "price": 14.95, "description": "Spicy crunch salmon, cucumber, fuji apple inside, top salmon, avocado, serve with eel sauce, miso sauce, candied pistachios" },
+        { "name": "Angry Dragon Roll", "price": 15.95, "popular": true, "description": "Spicy tuna, kani stick, avocado inside, top with shrimp tempura, served with eel sauce, honey wasabi" },
+        { "name": "Crazy Tuna Roll", "price": 14.95, "popular": true, "description": "Spicy crunch tuna inside, top with paper tuna, avocado, serve with spicy mayo, honey wasabi, candied pistachio" },
+        { "name": "Tiger Roll", "price": 15.95, "popular": true, "description": "Spicy tuna crunch inside, top with tuna, salmon, eel, avocado, served with eel sauce, spicy mayo, fry garlic, masago" },
+        { "name": "Hollywood Roll", "price": 14.95, "popular": true, "description": "Shrimp tempura, avocado inside, top with spicy crab, serve with eel sauce, spicy mayo, crunch" },
+        { "name": "Pink Lady Roll", "price": 14.95, "description": "Tuna, salmon, yellowtail, avocado inside, with soybean paper" },
+        { "name": "Fuji Mountain Roll", "price": 12.95, "description": "Salmon cream cheese, jalapeno, avocado deep fry, served with eel sauce, volcano sauce, fry onion" },
+        { "name": "Cowboy Roll", "price": 16.95, "description": "Spicy tuna, avocado inside, top with seared filet mignon, served with eel sauce, white truffle oil, grated black summer truffles" },
+        { "name": "Godzilla Roll", "price": 12.95, "description": "Spicy salmon, avocado, inside deep fry, served with eel sauce, spicy mayo, scallion, masago" },
+        { "name": "NJ-57 Roll", "price": 14.95, "description": "Spicy salmon, cucumber inside, top with tuna, yellowtail, scallion, masago" },
+        { "name": "Mango Tango Roll", "price": 14.95, "description": "Shrimp tempura, avocado inside, top with sliced mango, coconut flake. Served with mango sauce" },
+        { "name": "New Jersey Roll", "price": 15.95, "description": "Spicy yellowtail inside, top with jalapeno, yellowtail" },
+        { "name": "Spider Roll", "price": 16.95, "description": "Tempura shell crab, spicy crab meat, avocado, soy paper, serve with eel sauce" },
+        { "name": "Summer Kiss Roll", "price": 15.95, "description": "Shrimp tempura and mango inside, seared salmon on top with mango sauce" },
+        { "name": "Black Dragon Roll", "price": 14.95, "description": "Tempura shrimp, cucumber, top with eel, avocado, served eel sauce" }
+      ]
+    },
+    {
+      "name": "Sushi & Sashimi",
+      "note": "2 pieces each order",
+      "items": [
+        { "name": "Ahi Tuna (Maguro)", "price": 7.50 },
+        { "name": "Fresh Water Eel (Unagi)", "price": 7.00 },
+        { "name": "Salmon (Sake)", "price": 7.00 },
+        { "name": "Yellowtail (Hamachi)", "price": 7.50 },
+        { "name": "Crab Meat (Kani)", "price": 5.00 },
+        { "name": "Scallop (Hotate)", "price": 8.50 },
+        { "name": "Smoked Salmon", "price": 7.50 },
+        { "name": "Masago", "price": 7.00 }
+      ]
+    },
+    {
+      "name": "Omakase Platters",
+      "note": "Served with miso soup or garden salad",
+      "items": [
+        { "name": "7pcs Sushi / 1 California Roll", "price": 19.95 },
+        { "name": "12pcs Sashimi", "price": 25.95 },
+        { "name": "10pcs Sushi / Tuna Roll", "price": 28.95 },
+        { "name": "Salmon Dinner", "price": 28.95, "description": "4pcs salmon sushi / 6pcs salmon sashimi / 1 salmon maki" },
+        { "name": "Tuna Dinner", "price": 28.95, "description": "4pcs tuna sushi / 6pcs tuna sashimi / 1 tuna maki" },
+        { "name": "Sake Temaki For 2", "price": 14.95, "description": "Spicy salmon / avocado / salmon roe" },
+        { "name": "Maguro Temaki For 2", "price": 14.95, "description": "Miso tuna / avocado / candied pistachios" },
+        { "name": "Turtle Wagyu Temaki For 4", "price": 14.95, "description": "Flash seared filet / avocado / white truffle oil / grated black summer truffles / eel sauce" }
+      ]
+    },
+    {
+      "name": "Poke Bowl",
+      "items": [
+        { "name": "Vegan Of the Sea Bowl", "price": 14.95, "description": "Cucumber, avocado, mango, edamame, seaweed salad, sweet corn, fry onion" },
+        { "name": "Eel Poke Bowl", "price": 15.95, "description": "Eel, cucumber, avocado, edamame, sweet corn, sesame seed, fry onion" },
+        { "name": "Salmon Poke Bowl", "price": 15.95, "description": "Salmon, cucumber, avocado, asparagus, edamame, sweet corn, fry onion" },
+        { "name": "Tuna Poke Bowl", "price": 15.95, "description": "Tuna, cucumber, avocado, asparagus, edamame, sweet corn, fry onion" },
+        { "name": "Crab Meat Poke", "price": 15.95, "description": "Crab meat, edamame, avocado, corn, pickled radish" },
+        { "name": "Shrimp Poke", "price": 15.95, "description": "Shrimp, edamame, avocado, corn, pickled radish" },
+        { "name": "Sear Steak Poke", "price": 15.95, "description": "Sear steak, edamame, avocado, corn, pickled radish" },
+        { "name": "House Poke Bowl", "price": 16.95, "description": "Tuna, salmon, yellowtail, cucumber, seaweed salad, masago, fry onion, served with spicy poke sauce" }
+      ]
+    },
+    {
+      "name": "Rice Platter",
+      "note": "Served with miso soup or salad",
+      "items": [
+        { "name": "Curry Tonkotsu", "price": 16.00, "description": "Tempura pork cutlet with Japanese curry over steam white rice" },
+        { "name": "Curry Chicken Katsu", "price": 16.00, "description": "Tempura chicken cutlet served with Japanese curry over steamed white rice" },
+        { "name": "Teriyaki Chicken", "price": 16.00, "popular": true, "description": "Teriyaki chicken served with teriyaki sauce and broccoli mushrooms asparagus white rice" },
+        { "name": "Teriyaki Shrimp", "price": 18.00, "description": "Teriyaki shrimp served with teriyaki sauce and broccoli mushrooms asparagus white rice" },
+        { "name": "Teriyaki Beef", "price": 21.95, "description": "Teriyaki beef served with teriyaki sauce and broccoli mushrooms asparagus white rice" }
+      ]
+    },
+    {
+      "name": "Ramen",
+      "items": [
+        { "name": "Shokudo Ramen", "price": 18.00, "popular": true, "description": "Pork broth with black garlic oil. Topped with fish cake, scallions, bean sprouts, sweet corn, bamboo, soft-egg, straight noodles" },
+        { "name": "Tonkotsu Ramen", "price": 17.00, "description": "Pork broth, topped with fish cake, bamboo, bean sprouts, scallions, soft-egg, straight noodles" },
+        { "name": "Miso Ramen", "price": 17.00, "description": "Pork broth with Japanese soybean paste, topped with bamboo, black fungus, fish cake, scallions, soft-egg, egg noodles" },
+        { "name": "Miso Veggie Ramen", "price": 15.00, "description": "Veg miso broth, with bean sprouts, sweet corn, mushroom, tofu, scallions, vegetable noodle" },
+        { "name": "Shio Beef Ramen", "price": 17.00, "description": "Chicken broth with garlic oil, bean sprouts, mushrooms, scallions, fish cake, half soft egg, egg noodle" },
+        { "name": "Spicy Ramen", "price": 17.00, "description": "Chicken broth with spicy oil, black fungus, sweet corn, fish cake, soft-egg, egg noodles" },
+        { "name": "Tan Tan Spicy Ramen", "price": 17.00, "description": "Chicken broth topped with Japanese minced pork, fish cake, bean sprouts, sweet corn, scallions, and soft-egg, egg noodles" },
+        { "name": "Seafood Udon Ramen", "price": 18.00, "description": "Chicken broth topped with shrimp, fish cake, black fungus, seaweed, and half soft-egg, udon noodles" },
+        { "name": "Shio Garlic Ramen", "price": 17.00, "popular": true, "description": "Chicken broth with garlic oil, topped with fish cake, scallions, bean sprouts, black fungus and half soft egg, egg noodles" },
+        { "name": "Spicy Kim Chi Ramen", "price": 17.00, "description": "Chicken broth with spicy oil, sweet corn, kimchi, scallions, fish cake, soft-egg, egg noodle" }
+      ]
+    },
+    {
+      "name": "Beverage",
+      "items": [
+        { "name": "Coke", "price": 2.00 },
+        { "name": "Diet Coke", "price": 2.00 },
+        { "name": "Ginger Ale", "price": 2.00 },
+        { "name": "Sprite", "price": 2.00 },
+        { "name": "Ice Tea", "price": 2.00 },
+        { "name": "Sparkling Water", "price": 3.50 },
+        { "name": "Apple Juice", "price": 3.50 },
+        { "name": "Orange Juice", "price": 3.50 },
+        { "name": "Unsweetened Green Tea", "price": 3.50 },
+        { "name": "Japanese Soda", "price": 4.00 }
+      ]
+    },
+    {
+      "name": "Dessert",
+      "items": [
+        { "name": "Fried Ice Cream", "price": 5.00 },
+        { "name": "Mochi", "price": 4.00 },
+        { "name": "Tempura Oreo (4)", "price": 5.00 }
+      ]
+    }
+  ]
+}

@@ -8,6 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        ink: '#1a1612',
+        'warm-ink': '#231e18',
+        'ink-hover': '#2d2620',
+        amber: '#c8860a',
+        gold: '#e8a020',
+        terracotta: '#b85c38',
+        hanko: '#cc2200',
+        cream: '#f0e6d0',
+        'warm-muted': '#9a8c7a',
+        // Legacy
         sumi: '#1C1C1E',
         akane: '#C0392B',
         kome: '#F5ECD7',
@@ -17,6 +27,7 @@ module.exports = {
         sand: '#E0D5C5',
       },
       fontFamily: {
+        display: ['var(--font-display)', 'serif'],
         mincho: ['Shippori Mincho', 'serif'],
         sans: ['Noto Sans JP', 'sans-serif'],
         cormorant: ['Cormorant Garamond', 'serif'],
