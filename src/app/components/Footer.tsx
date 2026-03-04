@@ -13,8 +13,8 @@ export default function Footer() {
           <div>
             <h4 className="font-mincho text-lg font-semibold mb-2">Contact</h4>
             <p className="text-ash mb-1">1855 Route 57, Hackettstown, NJ 07840</p>
-            <p className="text-ash mb-1">(908) 123-4567</p>
-            <p className="text-ash">info@shokudo07840.com</p>
+            <p className="text-ash mb-1">(908) 269-8390</p>
+            <p className="text-ash">(908) 269-8367</p>
           </div>
           
           {/* Social Links */}

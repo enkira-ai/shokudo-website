@@ -7,9 +7,8 @@ const restaurantInfo = {
   zip: '07840',
   googleMapsUrl: 'https://maps.google.com/?q=1855+Route+57+Hackettstown+NJ+07840',
   hours: {
-    'Mon-Thu': '11am – 9pm',
-    'Fri-Sat': '11am – 10pm',
-    'Sunday': '12pm – 9pm'
+    'Mon–Sat': '11:30am – 10:00pm',
+    'Sunday': '12:00pm – 10:00pm'
   }
 }
 
