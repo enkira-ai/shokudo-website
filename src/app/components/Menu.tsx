@@ -102,7 +102,7 @@ export default function Menu({ menuData }: { menuData: MenuData }) {
                 </p>
               )}
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                 {currentCategory.items.map((item, i) => (
                   <motion.div
                     key={item.name}

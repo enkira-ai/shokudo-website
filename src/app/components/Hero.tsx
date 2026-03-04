@@ -12,10 +12,10 @@ export default function Hero() {
     <section className="relative h-[100svh] min-h-[600px] overflow-hidden">
       {/* Background photo */}
       <div
-        className="absolute inset-0 bg-cover bg-center scale-105"
+        className="absolute inset-0 bg-cover scale-105"
         style={{
-          backgroundImage:
-            'url(/images/2829cb76-ecc3-4d27-91ff-3dda65e78e52.jpg)',
+          backgroundImage: 'url(/images/2829cb76-ecc3-4d27-91ff-3dda65e78e52.jpg)',
+          backgroundPosition: 'center 30%',
         }}
       />
 
