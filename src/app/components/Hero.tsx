@@ -14,8 +14,8 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover scale-105"
         style={{
-          backgroundImage: 'url(/images/2829cb76-ecc3-4d27-91ff-3dda65e78e52.jpg)',
-          backgroundPosition: 'center 30%',
+          backgroundImage: 'url(/images/d95d8e9a-1613-429b-92ed-d05eef7cc20d.jpg)',
+          backgroundPosition: 'center 50%',
         }}
       />
 

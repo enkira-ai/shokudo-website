@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Menu from './components/Menu'
 import Gallery from './components/Gallery'
+import OnlineOrdering from './components/OnlineOrdering'
 import LocationHours from './components/LocationHours'
 import Footer from './components/Footer'
 
@@ -15,6 +16,7 @@ export default function Home() {
       <About />
       <Menu menuData={menuData as Parameters<typeof Menu>[0]['menuData']} />
       <Gallery />
+      <OnlineOrdering />
       <LocationHours />
       <Footer />
     </main>

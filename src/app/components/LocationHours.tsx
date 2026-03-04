@@ -15,7 +15,7 @@ const restaurantInfo = {
 export default function LocationHours() {
   return (
     <section id="location" className="section">
-      <h2 className="section-title">📍 Location & Hours</h2>
+      <h2 className="section-title">Location &amp; Hours</h2>
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Address and Hours */}
